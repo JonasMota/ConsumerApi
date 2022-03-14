@@ -16,10 +16,7 @@ server.get('/', async(req, res)=>{
         console.log(error)
     }
 
-    
 })
-
-
 
 server.listen(8081, ()=>{
     console.log("servidor rodando http://localhost:8081")
